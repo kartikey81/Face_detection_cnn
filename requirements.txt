@@ -4,7 +4,6 @@ joblib
 gunicorn
 kiwisolver
 MarkupSafe
-pandas
 numpy
 scipy
 Pillow
