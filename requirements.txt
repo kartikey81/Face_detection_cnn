@@ -6,7 +6,7 @@ kiwisolver
 MarkupSafe
 pandas
 numpy
-scikit-learn
+scipy
 Pillow
 requests
 opencv-python-headless
