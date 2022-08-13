@@ -216,7 +216,7 @@ def predict_face(image_data):
 
 @app.route('/cnn/face/face')
 def face():
-    return render_template('/cnn/face/face.html')
+    return render_template('/cnn/Face/face.html')
 
 
 @app.route('/cnn/face/face',  methods=['GET', 'POST'])
@@ -241,7 +241,7 @@ def face1():
 
         
 
-        return render_template('/cnn/face/faceoutput.html', model_name=my_model_name,my_dataset=input_image, pred=preds, visualize=input )
+        return render_template('/cnn/Face/faceoutput.html', model_name=my_model_name,my_dataset=input_image, pred=preds, visualize=input )
 
 
 
