@@ -3,7 +3,7 @@ from jinja2 import Template
 from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from os import path
 import re
 from flask import Flask, render_template, request
@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix
 import pandas as pd
 import numpy as np
-import matplotlib
+#import matplotlib
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 
@@ -34,7 +34,7 @@ from keras.applications.imagenet_utils import preprocess_input, decode_predictio
 from keras.models import load_model
 from keras.preprocessing import image
 import io
-matplotlib.use('Agg')
+#matplotlib.use('Agg')
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
