@@ -1,6 +1,6 @@
 from flask.helpers import send_file
 from jinja2 import Template
-
+import numpy as np 
 
 import matplotlib.pyplot as plt
 from os import path
