@@ -5,7 +5,7 @@ gunicorn
 kiwisolver
 MarkupSafe
 numpy
-scipy
+sklearn
 Pillow
 requests
 opencv-python-headless
